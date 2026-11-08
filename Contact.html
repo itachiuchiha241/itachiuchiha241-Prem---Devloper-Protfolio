@@ -1,36 +1,239 @@
-<!doctype html>
+
+<!DOCTYPE html>
 <html lang="en">
+
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#100b1c">
-    <meta name="description" content="Contact Prem about a project or collaboration.">
-    <title>Contact Prem</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+      content="Contact Prem for web development opportunities, collaborations, and professional connections.">
+
+    <meta name="author" content="Prem">
+
+    <title>Contact | Prem</title>
+
+    <link rel="stylesheet" href="styles.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet">
+
     <script src="script.js" defer></script>
   </head>
+
   <body>
-    <a class="skip-link" href="#main">Skip to content</a><div class="ambient ambient-one" aria-hidden="true"></div><div class="ambient ambient-two" aria-hidden="true"></div>
-    <header class="site-header"><div class="container nav-wrap">
-      <a class="brand" href="index.html" aria-label="Prem's portfolio home"><span class="brand-mark">P</span><span>PREM<span class="brand-dot">.</span></span></a><button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="site-nav"><span></span><span></span></button>
-      <nav class="site-nav" id="site-nav" aria-label="Main navigation"><a href="index.html">Home</a><a href="about.html">About</a><a href="skills.html">Skills</a><a href="Projects.html">Projects</a><a class="is-active" aria-current="page" href="Contact.html">Contact</a><a class="nav-cta" href="Contact.html">Let’s talk <span aria-hidden="true">↗</span></a></nav><span class="availability"><span></span> Open to opportunities</span>
-    </div></header>
-    <main id="main" class="container inner-page contact-page">
-      <section class="page-intro reveal"><p class="eyebrow"><span class="eyebrow-star">✦</span> 04 — SAY HELLO</p><h1 class="page-title">Have something<br><span class="gradient-text">in mind?</span></h1><p class="page-lead">Have a project, an idea, or just want to say hello? I’d love to hear from you.</p></section>
-      <section class="contact-layout section">
-        <div class="contact-details reveal"><p class="section-kicker"><span>01</span> DIRECT LINE</p><h2>Let’s start<br>with a message.</h2><p>The form opens a new email addressed to me, so your message goes straight to your mail app.</p><a class="contact-email" href="mailto:prempawar241@gmail.com">prempawar241@gmail.com <span aria-hidden="true">↗</span></a><div class="social-links"><a href="https://github.com/itachiuchiha241" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a></div></div>
-        <form class="contact-form reveal" id="contact-form">
-          <label for="name">Your name</label><input id="name" name="name" type="text" autocomplete="name" placeholder="How should I address you?" required>
-          <label for="email">Email address</label><input id="email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required>
-          <label for="message">Your message</label><textarea id="message" name="message" rows="5" placeholder="Tell me a little about it…" required></textarea>
-          <button class="button button-primary" type="submit">Open email draft <span aria-hidden="true">↗</span></button>
-          <p class="form-note">This creates a draft in your default email app. It won’t send anything automatically.</p>
-        </form>
+
+    <!-- ================= HEADER ================= -->
+
+    <header class="site-header">
+
+      <div class="container nav-container">
+
+        <a href="index.html" class="logo">
+          Prem<span>.</span>
+        </a>
+
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-label="Open navigation"
+          aria-expanded="false"
+          aria-controls="site-nav">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="site-nav" id="site-nav">
+
+          <a href="index.html#home">Home</a>
+          <a href="index.html#about">About</a>
+          <a href="index.html#skills">Skills</a>
+          <a href="index.html#projects">Projects</a>
+          <a href="index.html#contact">Contact</a>
+
+        </nav>
+
+      </div>
+
+    </header>
+
+    <!-- ================= CONTACT PAGE ================= -->
+
+    <main>
+
+      <section class="contact-page section-padding">
+
+        <div class="container">
+
+          <!-- PAGE INTRO -->
+
+          <div class="section-heading reveal">
+
+            <p class="section-eyebrow">
+              GET IN TOUCH
+            </p>
+
+            <h1>
+              Contact <span>Me</span>
+            </h1>
+
+            <p>
+              Have a question, opportunity, or project idea?
+              Feel free to reach out.
+            </p>
+
+          </div>
+
+          <!-- CONTACT CONTENT -->
+
+          <div class="contact-content reveal">
+
+            <!-- CONTACT INFORMATION -->
+
+            <div class="contact-info">
+
+              <h2>
+                Let's Connect
+              </h2>
+
+              <p>
+                I'm interested in connecting with developers,
+                exploring opportunities, and learning through
+                collaboration.
+              </p>
+
+              <div class="contact-item">
+
+                <h3>Email</h3>
+
+                <a href="mailto:prempawar241@gmail.com">
+                  prempawar241@gmail.com
+                </a>
+
+              </div>
+
+              <div class="contact-item">
+
+                <h3>GitHub</h3>
+
+                <a
+                  href="https://github.com/itachiuchiha241"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  github.com/itachiuchiha241
+                </a>
+
+              </div>
+
+              <div class="contact-item">
+
+                <h3>LinkedIn</h3>
+
+                <a
+                  href="https://linkedin.com"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  LinkedIn Profile
+                </a>
+
+              </div>
+
+            </div>
+
+            <!-- CONTACT FORM -->
+
+            <form id="contact-form" class="contact-form">
+
+              <div class="form-group">
+
+                <label for="name">
+                  Your Name
+                </label>
+
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Enter your name"
+                  autocomplete="name"
+                  required>
+
+              </div>
+
+              <div class="form-group">
+
+                <label for="email">
+                  Your Email
+                </label>
+
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Enter your email"
+                  autocomplete="email"
+                  required>
+
+              </div>
+
+              <div class="form-group">
+
+                <label for="message">
+                  Your Message
+                </label>
+
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="6"
+                  placeholder="Write your message here..."
+                  required></textarea>
+
+              </div>
+
+              <button type="submit" class="btn btn-primary">
+                Send Message
+              </button>
+
+              <p class="form-note">
+                Your default email application will open
+                with your message prepared.
+              </p>
+
+            </form>
+
+          </div>
+
+        </div>
+
       </section>
+
     </main>
-    <footer class="site-footer"><div class="container footer-main"><a class="brand" href="index.html"><span class="brand-mark">P</span><span>PREM<span class="brand-dot">.</span></span></a><p>Thoughtful code. Creative energy.</p><div class="footer-links"><a href="https://github.com/itachiuchiha241" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="mailto:prempawar241@gmail.com">Email ↗</a></div></div><div class="container footer-bottom"><span>DESIGNED & BUILT WITH CARE</span><span>© <span data-year></span> PREM</span><a href="#main">BACK TO TOP ↑</a></div></footer>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="site-footer">
+
+      <div class="container footer-container">
+
+        <p>
+          © <span data-year></span> Prem.
+          All rights reserved.
+        </p>
+
+        <a href="index.html">
+          Back to Home ↑
+        </a>
+
+      </div>
+
+    </footer>
+
   </body>
+
 </html>

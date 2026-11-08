@@ -1,90 +1,224 @@
-<!doctype html>
+
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#100b1c">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>About Me | Prem</title>
+
     <meta name="description"
-      content="Get to know Prem, a web developer focused on useful, thoughtful digital experiences.">
-    <title>About Prem — Web Developer</title>
+      content="Learn more about Prem, a web developer passionate about coding, technology, and Japanese culture.">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <link
-      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
       rel="stylesheet">
+
     <link rel="stylesheet" href="styles.css">
+
     <script src="script.js" defer></script>
   </head>
+
   <body>
-    <a class="skip-link" href="#main">Skip to content</a>
-    <div class="ambient ambient-one" aria-hidden="true"></div><div
-      class="ambient ambient-two" aria-hidden="true"></div>
-    <header class="site-header"><div class="container nav-wrap">
-        <a class="brand" href="index.html"
-          aria-label="Prem's portfolio home"><span
-            class="brand-mark">P</span><span>PREM<span
-              class="brand-dot">.</span></span></a>
-        <button class="nav-toggle" type="button" aria-label="Open navigation"
-          aria-expanded="false"
-          aria-controls="site-nav"><span></span><span></span></button>
-        <nav class="site-nav" id="site-nav" aria-label="Main navigation"><a
-            href="index.html">Home</a><a class="is-active" aria-current="page"
-            href="about.html">About</a><a href="skills.html">Skills</a><a
-            href="Projects.html">Projects</a><a
-            href="Contact.html">Contact</a><a class="nav-cta"
-            href="Contact.html">Let’s talk <span
-              aria-hidden="true">↗</span></a></nav>
-        <span class="availability"><span></span> Open to opportunities</span>
-      </div></header>
-    <main id="main" class="container inner-page">
-      <section class="page-hero about-page-hero reveal"><div><p
-            class="eyebrow"><span class="eyebrow-star">✦</span> 01 — THE PERSON
-            BEHIND THE PIXELS</p><h1 class="page-title">Curious by
-            nature.<br><span class="gradient-text">Developer by
-              choice.</span></h1><p class="page-lead">Hello! I’m Prem, a
-            passionate web developer who enjoys creating elegant, efficient, and
-            approachable digital experiences.</p></div><div
-          class="about-portrait"><span class="portrait-kanji"
-            aria-hidden="true">夢</span><img src="img/devloper (2).png"
-            alt="Illustration of a developer working at a laptop"></div></section>
-      <section class="about-story section reveal"><div
-          class="section-kicker"><span>01</span> MY JOURNEY</div><div
-          class="story-copy"><h2 class="section-title">Learning by<br><span
-              class="muted-text">making things.</span></h2><div><p>I started my
-              coding journey a few years ago, and since then I’ve explored web
-              development, backend technologies, and the craft of designing
-              user-friendly interfaces.</p><p>When I’m away from the keyboard, I
-              enjoy gaming, exploring new ideas, and learning about the tools
-              people use to make the web better.</p><a class="arrow-link"
-              href="Projects.html">See what I’m working on <span
-                aria-hidden="true">↗</span></a></div></div></section>
-      <section class="values-grid section">
-        <article class="value-card reveal"><span>01 / CURIOSITY</span><h3>Ask
-            better questions.</h3><p>Every project starts with understanding the
-            people and the problem behind it.</p></article>
-        <article class="value-card reveal"><span>02 / CRAFT</span><h3>Care about
-            the details.</h3><p>Clear layouts, thoughtful interactions, and
-            readable code all add up.</p></article>
-        <article class="value-card reveal"><span>03 / GROWTH</span><h3>Keep the
-            next idea close.</h3><p>I’m always experimenting, learning, and
-            looking for a new challenge.</p></article>
+
+    <!-- Header -->
+    <header class="site-header">
+      <div class="container nav-container">
+
+        <a href="index.html" class="logo">
+          Prem<span>.</span>
+        </a>
+
+        <button class="nav-toggle"
+          aria-label="Open navigation"
+          aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="site-nav">
+          <a href="index.html#home">Home</a>
+          <a href="about.html" class="active">About</a>
+          <a href="skills.html">Skills</a>
+          <a href="Projects.html">Projects</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+
+      </div>
+    </header>
+
+    <!-- About Page -->
+    <main>
+
+      <section class="about-page section-padding">
+
+        <div class="container">
+
+          <div class="section-heading reveal">
+            <span class="section-eyebrow">GET TO KNOW ME</span>
+            <h1>About <span>Me</span></h1>
+            <p>A little introduction about who I am and what I do.</p>
+          </div>
+
+          <div class="about-content reveal">
+
+            <div class="about-image">
+              <img src="images/prem.png"
+                alt="Prem">
+            </div>
+
+            <div class="about-text">
+
+              <h2>Hi, I'm Prem</h2>
+
+              <h3>
+                An aspiring
+                <span>Web Developer</span>
+              </h3>
+
+              <p>
+                I'm a passionate web developer interested in
+                building modern, responsive, and user-friendly
+                websites. I enjoy exploring new technologies,
+                solving problems, and continuously improving
+                my development skills.
+              </p>
+
+              <p>
+                My journey in web development started with
+                HTML and CSS, and gradually expanded into
+                JavaScript, React, Python, Django, and database
+                technologies.
+              </p>
+
+              <p>
+                Beyond coding, I'm passionate about Japanese
+                language, culture, anime, gaming, and learning
+                something new every day.
+              </p>
+
+              <a href="Projects.html" class="btn btn-primary">
+                Explore My Projects
+              </a>
+
+            </div>
+
+          </div>
+
+          <!-- Personal Details -->
+          <div class="about-details reveal">
+
+            <h2>Personal Information</h2>
+
+            <div class="about-details-grid">
+
+              <div class="detail-item">
+                <span>Name</span>
+                <p>Prem</p>
+              </div>
+
+              <div class="detail-item">
+                <span>Education</span>
+                <p>Bachelor of Commerce (B.Com)</p>
+              </div>
+
+              <div class="detail-item">
+                <span>Profession</span>
+                <p>Aspiring Web Developer</p>
+              </div>
+
+              <div class="detail-item">
+                <span>Interests</span>
+                <p>Web Development, Japanese Language, Technology</p>
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- Interests -->
+          <div class="about-details reveal">
+
+            <div class="section-heading">
+              <h2>My Interests</h2>
+              <p>Things I enjoy outside of development.</p>
+            </div>
+
+            <div class="skills-grid">
+
+              <div class="skill-card">
+                <div class="skill-monogram">💻</div>
+                <h3>Coding</h3>
+                <p>Building websites and learning new technologies.</p>
+              </div>
+
+              <div class="skill-card">
+                <div class="skill-monogram">🇯🇵</div>
+                <h3>Japanese</h3>
+                <p>Learning Japanese language and exploring its culture.</p>
+              </div>
+
+              <div class="skill-card">
+                <div class="skill-monogram">🎮</div>
+                <h3>Gaming</h3>
+                <p>Enjoying games and exploring virtual worlds.</p>
+              </div>
+
+              <div class="skill-card">
+                <div class="skill-monogram">✏️</div>
+                <h3>Sketching</h3>
+                <p>Expressing creativity through drawing.</p>
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- CTA -->
+          <div class="about-cta reveal">
+
+            <h2>Let's Build Something Together</h2>
+
+            <p>
+              I'm always interested in learning, collaborating,
+              and creating something meaningful.
+            </p>
+
+            <a href="contact.html" class="btn btn-primary">
+              Get In Touch
+            </a>
+
+          </div>
+
+        </div>
+
       </section>
-      <section class="contact-banner compact-contact reveal"><span
-          class="contact-kanji" aria-hidden="true">夜</span><p
-          class="eyebrow">HAVE A PROJECT IN MIND?</p><h2>Let’s talk.</h2><a
-          class="button button-primary" href="Contact.html">Get in touch <span
-            aria-hidden="true">↗</span></a></section>
+
     </main>
-    <footer class="site-footer"><div class="container footer-main"><a
-          class="brand" href="index.html"><span
-            class="brand-mark">P</span><span>PREM<span
-              class="brand-dot">.</span></span></a><p>Thoughtful code. Creative
-          energy.</p><div class="footer-links"><a
-            href="https://github.com/itachiuchiha241" target="_blank"
-            rel="noopener noreferrer">GitHub ↗</a><a
-            href="mailto:prempawar241@gmail.com">Email ↗</a></div></div><div
-        class="container footer-bottom"><span>DESIGNED & BUILT WITH
-          CARE</span><span>© <span data-year></span> PREM</span><a
-          href="#main">BACK TO TOP ↑</a></div></footer>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+
+      <div class="container footer-container">
+
+        <p>
+          &copy; <span data-year></span> Prem.
+          All rights reserved.
+        </p>
+
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="Projects.html">Projects</a>
+          <a href="contact.html">Contact</a>
+        </div>
+
+      </div>
+
+    </footer>
+
   </body>
 </html>
