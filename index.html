@@ -21,6 +21,9 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
       rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
     <script src="script.js" defer></script>
   </head>
@@ -43,9 +46,11 @@
           aria-label="Open navigation"
           aria-expanded="false"
           aria-controls="site-nav">
+
           <span></span>
           <span></span>
           <span></span>
+
         </button>
 
         <nav class="site-nav" id="site-nav">
@@ -107,15 +112,21 @@
               <a
                 href="https://github.com/itachiuchiha241"
                 target="_blank"
-                rel="noopener noreferrer">
-                GitHub
+                rel="noopener noreferrer"
+                aria-label="GitHub">
+
+                <i class="fa-brands fa-github"></i>
+
               </a>
 
               <a
-                href=""
+                href="YOUR_LINKEDIN_PROFILE_URL"
                 target="_blank"
-                rel="noopener noreferrer">
-                LinkedIn
+                rel="noopener noreferrer"
+                aria-label="LinkedIn">
+
+                <i class="fa-brands fa-linkedin"></i>
+
               </a>
 
             </div>
@@ -291,7 +302,62 @@
 
           <div class="projects-grid">
 
-            <!-- CybervisionX -->
+            <!-- PROJECT 1: TWITCHLEDGER -->
+
+            <article class="project-card reveal">
+
+              <div class="project-image">
+
+                <img
+                  src="img/TwitchLedger_Minimalist_Banner.png"
+                  alt="TwitchLedger Twitch support tracking dashboard"
+                  loading="lazy">
+
+              </div>
+
+              <div class="project-content">
+
+                <p class="project-category">
+                  TWITCH TRACKING WEB APPLICATION
+                </p>
+
+                <h2>
+                  TwitchLedger
+                </h2>
+
+                <p>
+                  TwitchLedger is a web application designed to track
+                  Twitch gifted subscriptions, Bits donations, and
+                  supported channels in one organized dashboard.
+                </p>
+
+                <div class="project-tech">
+
+                  <span>React</span>
+                  <span>TypeScript</span>
+                  <span>MongoDB</span>
+
+                </div>
+
+                <div class="project-actions">
+
+                  <a
+                    href="YOUR_TWITCHLEDGER_GITHUB_URL"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="project-link">
+
+                    View on GitHub →
+
+                  </a>
+
+                </div>
+
+              </div>
+
+            </article>
+
+            <!-- PROJECT 2: CYBERVISIONX -->
 
             <article class="project-card reveal">
 
@@ -310,9 +376,9 @@
                   E-COMMERCE WEBSITE
                 </p>
 
-                <h3>
+                <h2>
                   CybervisionX
-                </h3>
+                </h2>
 
                 <p>
                   An ecommerce-style website created to practice
@@ -321,24 +387,32 @@
                 </p>
 
                 <div class="project-tech">
+
                   <span>HTML</span>
                   <span>CSS</span>
                   <span>JavaScript</span>
+
                 </div>
 
-                <a
-                  href="https://github.com/itachiuchiha241/CybervisionX"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="project-link">
-                  View on GitHub →
-                </a>
+                <div class="project-actions">
+
+                  <a
+                    href="https://github.com/itachiuchiha241/CybervisionX"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="project-link">
+
+                    View on GitHub →
+
+                  </a>
+
+                </div>
 
               </div>
 
             </article>
 
-            <!-- Car Management System -->
+            <!-- PROJECT 3: CAR MANAGEMENT SYSTEM -->
 
             <article class="project-card reveal">
 
@@ -357,9 +431,9 @@
                   CAR MARKETPLACE
                 </p>
 
-                <h3>
+                <h2>
                   Car Management System
-                </h3>
+                </h2>
 
                 <p>
                   A car marketplace project designed to practice
@@ -368,18 +442,26 @@
                 </p>
 
                 <div class="project-tech">
+
                   <span>HTML</span>
                   <span>CSS</span>
                   <span>JavaScript</span>
+
                 </div>
 
-                <a
-                  href="https://github.com/itachiuchiha241/Car-Management-System1"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="project-link">
-                  View on GitHub →
-                </a>
+                <div class="project-actions">
+
+                  <a
+                    href="https://github.com/itachiuchiha241/Car-Management-System1"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="project-link">
+
+                    View on GitHub →
+
+                  </a>
+
+                </div>
 
               </div>
 
@@ -426,30 +508,38 @@
 
             <div class="contact-info">
 
-              <h3>
+              <h2>
                 Contact Information
-              </h3>
+              </h2>
 
-              <p>
-                Email
-              </p>
+              <div class="contact-item">
 
-              <a href="mailto:prempawar241@gmail.com">
-                prempawar241@gmail.com
-              </a>
+                <h3>Email</h3>
 
-              <p>
-                GitHub
-              </p>
+                <a href="mailto:prempawar241@gmail.com">
+                  prempawar241@gmail.com
+                </a>
 
-              <a
-                href="https://github.com/itachiuchiha241"
-                target="_blank"
-                rel="noopener noreferrer">
-                github.com/itachiuchiha241
-              </a>
+              </div>
+
+              <div class="contact-item">
+
+                <h3>GitHub</h3>
+
+                <a
+                  href="https://github.com/itachiuchiha241"
+                  target="_blank"
+                  rel="noopener noreferrer">
+
+                  github.com/itachiuchiha241
+
+                </a>
+
+              </div>
 
             </div>
+
+            <!-- FRONTEND FORM: Requires backend/service to send messages -->
 
             <form id="contact-form" class="contact-form">
 
